@@ -1,156 +1,100 @@
 
 /* Extra small devices  start(portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-    .img-fluid {
-        max-width: 70%;
-        margin-left: 77px;
+    .slider img {
+        padding: 0px 136px;
+        margin-top: -26px;
+        margin-left: 0px;
     }
-    .first {
-        width: 545px;
+    .title h5 {
+        padding: 0px 110px;
     }
-    .items .card {
-        margin-left: 90px;
-       width:100%;
+    .middle-part .middle-one p {
+        margin-bottom: 14px;
     }
-    .footer {
-        width: 545px;
+    .contac-part p {
+        padding: 0px 95px;
     }
-    .footer-part .btn {
-        margin-left: 120px;
+    .contac-part input {
+        margin-left: 110px;
+        width: 60%;
     }
-    .footer-part input {
-        margin-left: 35px;
+    .contac-part button {
+        margin-left: 220px;
+        width: 100px;
     }
-    body{
-        width: 100%;
-    }
-    .first-catagories .items{
-        padding: 70px;
-    }
-    .slider-first {
-        width: 545px; 
+    .footer address {
+        margin-left: 50px;
     }
 
-    .carousel-indicators li {
-        margin-bottom: 200px;
-    }
-    .slider-first img {
-        height: 535px;
-        margin-top: -294px;
-        width: 50px;
-        padding: 165px;
-        margin-left: 165px;
-    }
-    .first-catagories .items {
-        margin-top: -70px;
-        margin-bottom: -79px;
-    }
-    .catagories-name h3{
-        padding-bottom: 30px;
-    }
 }
 /* Extra small devices  end(portrait phones, less than 576px)*/
 /*Responsive for 576px to 767.98px device start*/
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .img-fluid {
-        max-width: 100%;
-        height: auto;
-        width: 300px;
-        margin-left: 75px;
+    .slider img {
+        padding: 0px 120px;
+        margin-top: -25px;
+        margin-left: 3px;
     }
-    .first {
-        width: 510px;  
+    .title h5 {
+        padding: 0px 95px;
     }
-    .items .card{
+    .middle-part .middle-one p {
+        padding: 0px 150px 0px 0px;
+    }
+    .contac-part p {
+        padding: 0px 70px;
+    }
+    .contac-part input {
         margin-left: 80px;
+        width: 70%;
     }
-    .footer {
-        width: 510px;
+    .contac-part button {
+        margin-left: 195px;
     }
-    .footer-part .btn {
-        margin-left: 100px;
-    }
-    .footer-part input {
-        margin-left: 35px;
-    }
-    .slider-first {
-        width: 510px; 
-    }
-    .slider-first img {
-        height: 535px;
-        margin-top: -285px;
-        width: 50px;
-        padding: 70px;
-        margin-left: 125px;
-    }
-    .carousel-indicators li {
-        margin-bottom: 200px;
-    }
-    .slider-first img {
-    
-        padding: 170px;
-       
+    .footer address {
+        color: #ffffff;
+        font-size: 17px;
+        margin-left: 50px;
     }
 }
 /*Responsive for 576px to 767.98px device end*/
 /*Responsive for 768px to 991.98px device start*/
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .first {
-        width: 690px;
+    .slider img {
+        padding: 0px 171px;
+        margin-top: -103px;
+        margin-left: 165px;
     }
-    .items .card{
-       margin-left: 180px;
+    .title h5 {
+        padding: 0px 190px;
     }
-    .footer {
-       width:700px;
+    .middle-part .middle-one {
+        
+        padding: 0px 200px;
     }
-    .footer-part .btn {
-        margin-left: 190px;
+    .contac-part input {
+        margin-left: 180px;
+        width: 50%;
     }
-    .img-fluid {
-        width: 400px;
-        margin-left: 125px;
+    .contac-part button {
+        margin-left: 295px;
     }
-    .slider-first .text-part {
-        width: 500px;
-    }
-    .slider-first {
-        width: 690px; 
-    }
-    .slider-first img {
-        height: 800px;
-        margin-top: -509px;
-        width: 50px;
-        padding: 230px;
-        margin-left: 240px;
-    }
-    .carousel-indicators li {
-        margin-bottom: 200px;
+    .footer address {
+        margin-left: 50px;
     }
 }
 /*Responsive for 768px to 991.98px device end*/
 /*Responsive for 992px to 1199.98px device start*/
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  
-    .first {
-        width: 290px;
+    .slider img {
+        padding: 65px 35px;
     }
-    .footer {
-        width: 60rem;
+    .contac-part input {
+        margin-left: 160px;
     }
-    .footer-part .btn {
-        margin-left: 330px;
-    }
-    .footer-part input {
-        margin-left: 40px;
-    }
-    .slider-first {
-        width: 930px;
-    }
-
-
 }
 /*Responsive for 992px to 1199.98px device end*/

@@ -1,163 +1,204 @@
 /*body part start*/
-body {
-    margin: 0px;
-    padding: 0px;
-}
-img {
-    cursor: pointer;
+body{
+    margin:0px;
+    padding:0px;
 }
 /*body part end*/
+
+html{
+    scroll-behavior: smooth;
+}
+/*header part start*/
+.header-area{
+    background-color: #ffffff;
+    padding:10px 0px;
+}
+.header-area img{
+  margin-left:75px;
+}
+/*header part end*/
 /*menu part start*/
-.custom-color {
-    background-color: #dddddd;
+.menu ul li a{
+    font-family: 'PT Sans', sans-serif;
+    font-size:20px;
+    font-weight: 700;
+    color:#010101 !important;
+}
+.menu ul li{
+    padding: 0px 30px;
 }
 /*menu part end*/
 /*slider part start*/
-/*image-1 part start*/
-.slider .text-part h2{
-    color: #4d4747;
-    font-weight: bold;
-    font-size: 60px; 
-}
-.slider .text-part{
-    margin-top: 75px;
-}
-.slider .image-part{
-    margin-top: 2px;
-}
-.slider-first{
-    background-color: #F4709C;
-    margin-bottom: 200px;
-}
-.slider-bg {
-    background-color: #F4709C;
-    padding: 30px;
-}
-.my-content h2 {
-    font-weight: bold;
-    color: #4d4747;
-    font-size: 60px;
-}
-.my-content h3 {
-    color: #f207b4e8;
-}
-.btn-custom {
-    background-color: #d4057e;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 6px 15px;
-    margin-top: 20px;
-}
+.slider-part {
+    background-color:#fcdb00;
 
-.slider-first {
-    height: 600px;
-    margin-top: 0px;
-    height: 405px;
-    width: 1110px;
-    margin-left: 0px;
 }
-.slider-first img {
-    height: 400px;
+.slider-part .slider-first{
+    padding: 0px 70px;
 }
-.head-slide .x {
-    margin-top: -40px;
-    margin-bottom: -20px;
+.inspire ul li {
+    font-size: 40px;
+    padding: 10px 15px;
 }
-.slider1 h6 {
-    margin-left: 180px;
-    font-weight: 600;
-    color: #ffffff;
+.inspire ul li a{
+    color: black;
 }
-.slider1 h6 {
-    margin-left: 180px;
-    font-weight: 600;
-    color: #d4057e;
+.slider .inspire{
+    padding-top:80px;
+    padding-left: 95px;
 }
-.all-catagoris {
-    margin-top: -145px;
+.slider .inspire h2{
+   font-size:25px;
+   font-weight: 700;
+}
+.slider .inspire h3{
+    font-size:17px;
+    padding-right: 80px;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .slider .inspire p{
+    font-size:10px;
+    padding-right:70px;
+
+  }
+  .slider .inspire ul {
+    margin-left: -55px;
+  }
+  .slider img{
+     padding: 0px 100px;
+    margin-top: 35px;
+    margin-left:-65px;
+  }
+.slider-part{
+    height:600px;
 }
 /*slider part end*/
-/*first catagories part start*/
-.first-catagories h5 {
+/*indicator part start*/
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators li a{
+    margin-bottom: -50px;
+}
+.carousel-indicators {
+    bottom: -60px; 
+}
+/*indicator part end*/
+/*feature part start*/
+.title h2{
+    font-size: 30px;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    padding: 20px 0px;
 }
-.first {
-    background-color: tomato;
-    border-radius: 2%;
-    margin-top: 30px;
-    padding: 10px;
-    color: #ffffff;
-    width: 350px;
+.title h5{
+    font-size: 15px;
+    font-family: 'PT Sans', regular;
+    padding: 0px 275px;
 }
-.first h5 {
-    margin-left: -20px;
+.middle-part .middle-one h2{
+   font-size: 20px;
+   font-family: 'PT Sans', regular;
 }
-.bg-color-2 {
-    background-color: #f00de4;
+.middle-part .middle-one p{
+   font-family: 'PT Sans', regular;
+   padding: 0px 55px 0px 0px;
+   font-size: 14px;
+   color: #b2b2ad;
 }
-.bg-color-3 {
-    background-color: #1f12d1;
+.middle-part .middle-one img{
+   width: 30px;
+   margin-left: 35px;
+   margin-top: 2px;
 }
-/*first catagories part end*/
-/*catagories name part start*/
-.catagories-name h3 {
-    font-weight: 700;
-    margin-left: 0px;
+.middle-part .middle-one{
+  margin-top: 40px;
+  padding: 0px 65px;
 }
-/*catagories name part end*/
-/*second catagory part start*/
-.items .card {
-    width: 22rem;
-    background-color: #dddddd;
-    padding: 5px;
-    margin-bottom: 25px;
+.middle-part .middle-one p{
+  margin-bottom: 80px;
 }
-.items .card:hover {
-    padding: 0px;
-    transition: 1s;
+/*feature part end*/
+/*contac part start*/
+.contac-part{
+  background-color:#010101;
 }
-/*second catagory part end*/
+.contac-part h2{
+  color: #fcdb00;
+  font-family: 'PT Sans', bold;
+  margin-top: 90px;
+}
+.contac-part p{
+  color: #898989;
+  padding: 0px 200px;
+  font-size: 16px;
+  font-family: 'PT Sans', regular;
+  font-weight: bold;
+}
+.contac-part input{
+  margin-left: 235px;
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 22px;
+}
+.contac-part button{
+  margin-left: 80px;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100px;
+}
+.social-midea ul li a{
+  background-color: #fcdb00;
+  padding: 5px;
+  display: block;
+  width:40px;
+  border-radius: 5px;
+  margin-top: 90px;
+  font-size: 20px;
+  font-family: 'PT Sans', bold;
+}
+.social-midea ul li a{
+  color:black;
+}
+
+/*contac part end*/
 /*footer part start*/
+.footer address{
+  color: #ffffff;
+  font-size: 17px;
+
+}
+.footer h5{
+  font-size: 15px;
+  font-family: 'PT Sans', regular;
+}
+.footer h6{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'PT Sans', regular;
+}
+.footer h3{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'PT Sans', regular;
+}
 .footer {
-    width: 100%;
-    text-align: center;
-    background-color: #F4709C;
+  font-size:20px;
+  padding:10px;
 }
-.footer h5 {
-    font-size: 16px;
+.footer ul li {
+list-style:none;
 }
-
-.footer-part .btn {
-    margin-top: -15px;
-    display: block;
-    width: 100px;
-    margin-left: 400px;
-}
-
-.footer-part h3 {
-    text-transform: uppercase;
-}
-.footer-part input {
-    margin-top: 0px;
-    padding: 5px;
-    margin-left: 20px;
-    width: 300px;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    border: none;
-}
-
-.footer-part h5 {
-    font-size: 15px;
-}
+.footer ul li a {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'PT Sans', sans-serif;
+  padding-left: 10px;
+  }
+ .footer-area{
+  padding: 100px 0px;
+  }
 /*footer part end*/
-/*last part start*/
-.last-part h5 {
-    text-align: center;
-    font-size: 15px;
-    color: #7a6666;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-/*last part end*/
